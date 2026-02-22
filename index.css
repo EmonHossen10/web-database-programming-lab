@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Header */
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.header-content {
+  background: linear-gradient(135deg, #46c0e5, #9333ea);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  min-height: calc(100vh - 160px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background-color: #1f2937;
+  color: white;
+  padding: 30px 20px;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+  color: #d1d5db;
+  text-decoration: none;
+  padding: 8px;
+  display: block;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #111827;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  background-color: #dcdcdc;
+}
+
+/* Caption */
+table caption {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+/* Header */
+table th {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+/* Footer */
+footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 14px;
+}
