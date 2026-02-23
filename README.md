@@ -40,7 +40,7 @@ The website includes:
 
 (Screenshots are added in this repository as reference.)
 ![Student Registration Form](screenshot/1.png)
-![Student Registration Form](screenshot/1.png)  
+![Student Registration Form](screenshot/2.png)  
 
 ---
 
