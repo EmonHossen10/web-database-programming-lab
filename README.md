@@ -39,6 +39,8 @@ The website includes:
 - Background image design
 
 (Screenshots are added in this repository as reference.)
+![Student Registration Form](../../1.png)
+![Student Registration Form](../../2.png)
 
 ---
 
